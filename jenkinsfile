@@ -2,7 +2,7 @@ def tomcatServerUrl = "http://172.31.11.239"
 pipeline {
   agent {
     node {
-      label 'jenkins-slave'
+      label 'mvn'
     }
   }
 
